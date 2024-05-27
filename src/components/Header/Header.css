@@ -1,0 +1,36 @@
+.add-header {
+    background-color: lightgray;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+}
+.header {
+    height: 85px;
+    gap: 0px;
+    opacity: 0px;
+    background: #d1d0d0;
+    padding-left: 8px;
+    padding-right: 25px;
+    /* position: sticky;
+    z-index: 1000; */
+}
+.header span img {
+    height:80px;
+}
+
+.header span div {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background: linear-gradient(#e66465, #9198e5);
+    overflow: hidden;
+}
+.header span button{
+    background-color: green;
+    height: 30px;
+    width: 100px;
+    margin-left: 1100px;
+    color: white;
+    border-color: grey;
+    box-shadow: none;
+}

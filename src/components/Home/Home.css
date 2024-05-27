@@ -1,0 +1,144 @@
+.home {
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .tabs {
+    gap: 0px;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content: center;
+  }
+  
+  .tabs button {
+    margin: 0px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: transparent;
+  }
+  
+  .tab-button.active {
+    font-weight: bold;
+    color: white;
+  }
+  
+  .add-item-button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .resource-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin-right: 5px;
+  }
+  
+  button.active {
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    width: 648px;
+    height: 40px;
+    top: 190px;
+    left: 149px;
+    gap: 0px;
+    border-radius: 3px 0px 0px 0px;
+    opacity: 0px;
+  }
+
+  .item-logo{
+    display: flex;
+  }
+  
+  .item-logo img {
+    margin-top: 10px;
+    width: 44px;
+    height: 44px;
+    top: 24px;
+    left: 24px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .item-logo span {
+    display: flex;
+    flex-direction: column;
+  }
+  .item-logo span h3 {
+    font-family: HK Grotesk;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+
+  }
+  .item-logo span h5 {
+    width: 82px;
+    height: 16px;
+    top: 52px;
+    left: 84px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: HK Grotesk;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+  .resource-cards link{
+    width: 121px;
+    height: 24px;
+    top: 88px;
+    left: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: HK Grotesk;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+
+  }
+
+  .resource-cards description {
+    width: 312px;
+    height: 24px;
+    top: 120px;
+    left: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: HK Grotesk;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+  }
